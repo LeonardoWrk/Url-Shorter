@@ -5,14 +5,14 @@ import java.time.LocalDateTime;
 public class LinkResponse {
 
     private Long id;
-    private String urlLong;
+    private String urlLonga;
     private String urlEncurtada;
     private String urlQrCode;
     private LocalDateTime urlCriadaEm;
 
     public LinkResponse(Long id, String urlLong, String urlEncurtada, String urlQrCode, LocalDateTime urlCriadaEm) {
         this.id = id;
-        this.urlLong = urlLong;
+        this.urlLonga = urlLong;
         this.urlEncurtada = urlEncurtada;
         this.urlQrCode = urlQrCode;
         this.urlCriadaEm = urlCriadaEm;
@@ -27,11 +27,11 @@ public class LinkResponse {
     }
 
     public String getUrlLong() {
-        return urlLong;
+        return urlLonga;
     }
 
     public void setUrlLong(String urlLong) {
-        this.urlLong = urlLong;
+        this.urlLonga = urlLong;
     }
 
     public String getUrlEncurtada() {
