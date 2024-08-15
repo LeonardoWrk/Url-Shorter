@@ -13,7 +13,7 @@ import java.util.Map;
 @RestController
 public class LinkController {
 
-    public LinkService linkService;
+    private LinkService linkService;
 
     public LinkController(LinkService linkService) {
         this.linkService = linkService;

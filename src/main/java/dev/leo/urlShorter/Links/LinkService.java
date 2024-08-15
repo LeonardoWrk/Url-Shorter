@@ -12,7 +12,7 @@ import java.util.Random;
 @Service
 public class LinkService {
 
-        public LinkRepository linkRepository;
+        private LinkRepository linkRepository;
 
         public LinkService(LinkRepository linkRepository){
             this.linkRepository = linkRepository;
