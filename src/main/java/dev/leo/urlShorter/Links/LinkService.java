@@ -34,7 +34,7 @@ public class LinkService {
 
         public Link obterUrlOrignnal (String urlEncurtada){
             try{
-                return linkRepository.findByUrlOriginal(urlEncurtada);
+                return linkRepository.findByurlLonga(urlEncurtada);
             }catch (Exception erro){
                 throw new RuntimeException("url nao existe");
             }

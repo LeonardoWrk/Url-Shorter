@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 
 public interface LinkRepository extends JpaRepository<Link, Long> {
 
-    Link findByUrlOriginal(String urlEncurtada);
+    Link findByurlLonga(String urlEncurtada);
 
 
 }
